@@ -17,9 +17,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: 'Testing Gitgub action'
+      - name: 'Testing Gitgub action'
         run: pwd
 
-      -name: 'Testing printing'
+      - name: 'Testing printing'
         run: echo Yara
         
